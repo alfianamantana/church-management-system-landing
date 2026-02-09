@@ -142,6 +142,43 @@ const resources = {
       'footer.support.contact': 'Contact',
       'footer.support.terms': 'Terms',
       'footer.copyright': '© 2026 Lumen. All rights reserved.',
+
+      // About Page
+      'about.hero.title': 'The Light Behind Lumen',
+      'about.hero.subtitle': 'A story born from the heart of ministry and the desire to set churches free from administrative burdens.',
+
+      'about.why.title': 'Why Lumen Was Born',
+      'about.why.story': 'Lumen was created by a Christian developer who serves as a ministry worker in a local church in Bekasi, West Java. This wasn\'t built in a corporate office, but born out of the real-life challenges faced by a small-to-medium congregation. The creator saw firsthand the struggle of managing congregation data manually and realized that many churches lack the technical staff or massive budgets to implement high-end software. They witnessed time and energy that should have been devoted to shepherding and discipleship getting consumed by spreadsheets and manual data entry. From that reality, Lumen was born—not as a commercial product first, but as a ministry tool created to lighten the load.',
+      'about.why.lokasi': 'Bekasi, West Java—where this journey began.',
+
+      'about.mission.title': 'Our Core Mission & Values',
+      'about.mission.description': 'Three pillars guide everything we do at Lumen',
+
+      'about.values.accessibility.title': 'Radical Accessibility',
+      'about.values.accessibility.description': 'Digitizing church data in the simplest way possible, so even non-technical leaders can navigate their congregation\'s information with confidence.',
+
+      'about.values.affordability.title': 'Affordability',
+      'about.values.affordability.description': 'We believe technology should empower the Great Commission, not drain the church\'s treasury. Designed to be as affordable as possible so even the smallest churches can benefit.',
+
+      'about.values.efficiency.title': 'Efficiency',
+      'about.values.efficiency.description': 'Web-based systems are superior to spreadsheets—real-time updates, accessibility from any device, and centralized coordination for all ministries.',
+
+      'about.values.security.title': 'Data Security',
+      'about.values.security.description': 'While affordable, security is a top priority. All congregation data is encrypted and backed up to ensure privacy and peace of mind.',
+
+      'about.how.title': 'How We Solve It',
+      'about.how.solution': 'Lumen is designed with what we call "church logic"—built by someone who understands the rhythms of congregational life. Because the developer is an active servant in the church, Lumen doesn\'t think like generic CRM software. It thinks like a pastor, a finance administrator, and a ministry coordinator all at once.',
+      'about.how.efficiency': 'Instead of juggling spreadsheets across email and WhatsApp, you get one centralized system where attendance is tracked, giving is recorded, events are scheduled, and member profiles are maintained. Real-time updates mean no more outdated data. Accessibility from any device means the church administrator can manage information from anywhere. Centralized coordination means every ministry department stays informed without endless back-and-forth communication.',
+
+      'about.commitment.title': 'Our Commitment to You',
+      'about.commitment.security': 'Security Without Compromise: While Lumen is affordable, data protection is never compromised. All congregation information is encrypted and backed up regularly, ensuring the privacy and trust your church deserves.',
+      'about.commitment.community': 'By the Church, For the Church: We don\'t just build software—we build in partnership with you. Lumen includes a dedicated feature request system where users can suggest and vote on new features. Your feedback directly shapes Lumen\'s evolution, ensuring the software grows alongside your church\'s unique needs.',
+      'about.commitment.closing': 'This is community-driven growth at its finest.',
+
+      'about.cta.title': 'Join the Lumen Community',
+      'about.cta.description': 'Hundreds of churches are already simplifying their administration and focusing more on their mission. Your church could be next.',
+      'about.cta.primaryButton': 'Start Your Free Trial',
+      'about.cta.secondaryButton': 'Schedule a Demo',
     },
   },
   id: {
@@ -281,6 +318,43 @@ const resources = {
       'footer.support.contact': 'Kontak',
       'footer.support.terms': 'Syarat',
       'footer.copyright': '© 2026 Lumen. All rights reserved.',
+
+      // About Page
+      'about.hero.title': 'Cahaya Di Balik Lumen',
+      'about.hero.subtitle': 'Sebuah kisah yang lahir dari hati pelayanan dan keinginan untuk membebaskan gereja dari beban administrasi.',
+
+      'about.why.title': 'Mengapa Lumen Diciptakan',
+      'about.why.story': 'Lumen diciptakan oleh seorang developer Kristen yang melayani sebagai pekerja gereja di sebuah gereja lokal di Bekasi, Jawa Barat. Bukan dibangun di kantor perusahaan, melainkan lahir dari tantangan nyata yang dihadapi oleh jemaat kecil-menengah. Pembuatnya melihat langsung perjuangan dalam mengelola data jemaat secara manual dan menyadari bahwa banyak gereja tidak memiliki staf teknis atau anggaran besar untuk mengimplementasikan perangkat lunak kelas atas. Mereka menyaksikan bagaimana waktu dan energi yang seharusnya dihabiskan untuk penggembalaan dan pemuridan malah tersedot oleh spreadsheet dan entri data manual. Dari realitas itulah Lumen lahir—bukan sebagai produk komersial terlebih dahulu, melainkan sebagai alat pelayanan yang dirancang untuk meringankan beban.',
+      'about.why.lokasi': 'Bekasi, Jawa Barat—tempat perjalanan ini dimulai.',
+
+      'about.mission.title': 'Misi dan Nilai Inti Kami',
+      'about.mission.description': 'Tiga pilar memandu segala yang kami lakukan di Lumen',
+
+      'about.values.accessibility.title': 'Aksesibilitas Radikal',
+      'about.values.accessibility.description': 'Mendigitalkan data gereja dengan cara yang paling sederhana, sehingga bahkan pemimpin yang tidak berpengalaman teknis dapat menavigasi informasi jemaat dengan percaya diri.',
+
+      'about.values.affordability.title': 'Keterjangkauan',
+      'about.values.affordability.description': 'Kami percaya teknologi harus memberdayakan Amanat Agung, bukan menguras kas gereja. Dirancang untuk semurah mungkin sehingga bahkan gereja terkecil pun bisa merasakan manfaatnya.',
+
+      'about.values.efficiency.title': 'Efisiensi',
+      'about.values.efficiency.description': 'Sistem berbasis web lebih unggul dari spreadsheet—pembaruan real-time, aksesibilitas dari perangkat apa pun, dan koordinasi terpusat untuk semua pelayanan.',
+
+      'about.values.security.title': 'Keamanan Data',
+      'about.values.security.description': 'Meskipun terjangkau, keamanan adalah prioritas utama. Semua data jemaat dienkripsi dan dicadangkan secara berkala untuk memastikan privasi dan ketenangan pikiran.',
+
+      'about.how.title': 'Bagaimana Kami Menyelesaikannya',
+      'about.how.solution': 'Lumen dirancang dengan apa yang kami sebut "logika gereja"—dibangun oleh seseorang yang memahami irama kehidupan jemaat. Karena pembuatnya adalah pelayan aktif di gereja, Lumen tidak berpikir seperti perangkat lunak CRM generik. Ia berpikir seperti seorang pendeta, administrator keuangan, dan koordinator pelayanan sekaligus.',
+      'about.how.efficiency': 'Daripada mengelola spreadsheet di email dan WhatsApp, Anda mendapatkan satu sistem terpusat tempat kehadiran dilacak, pemberian dicatat, acara dijadwalkan, dan profil anggota dipertahankan. Pembaruan real-time berarti tidak ada lagi data yang ketinggalan jaman. Aksesibilitas dari perangkat apa pun berarti administrator gereja dapat mengelola informasi dari mana saja. Koordinasi terpusat berarti setiap departemen pelayanan tetap terinformasi tanpa komunikasi bolak-balik yang tidak ada habisnya.',
+
+      'about.commitment.title': 'Komitmen Kami kepada Anda',
+      'about.commitment.security': 'Keamanan Tanpa Kompromi: Meskipun Lumen terjangkau, perlindungan data tidak pernah dikompromikan. Semua informasi jemaat dienkripsi dan dicadangkan secara teratur, memastikan privasi dan kepercayaan yang layak diterima gereja Anda.',
+      'about.commitment.community': 'Oleh Gereja, Untuk Gereja: Kami tidak hanya membangun perangkat lunak—kami membangun dalam kemitraan dengan Anda. Lumen mencakup sistem permintaan fitur khusus di mana pengguna dapat menyarankan dan memberikan suara pada fitur baru. Umpan balik Anda secara langsung membentuk evolusi Lumen, memastikan perangkat lunak berkembang seiring dengan kebutuhan unik gereja Anda.',
+      'about.commitment.closing': 'Ini adalah pertumbuhan yang didorong komunitas dalam bentuk terbaiknya.',
+
+      'about.cta.title': 'Bergabunglah dengan Komunitas Lumen',
+      'about.cta.description': 'Ratusan gereja sudah menyederhanakan administrasi mereka dan fokus lebih pada misi mereka. Gereja Anda bisa menjadi berikutnya.',
+      'about.cta.primaryButton': 'Mulai Uji Coba Gratis Anda',
+      'about.cta.secondaryButton': 'Jadwalkan Demo',
     },
   },
 };
