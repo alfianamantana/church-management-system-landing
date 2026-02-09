@@ -192,6 +192,28 @@ const resources = {
 
       'about.testimonial.finance.quote': 'The financial flow tracking is so transparent and easy to use. It has built immense trust within our congregation.',
       'about.testimonial.finance.name': 'Finance Head, Emmanuel Fellowship',
+
+      // FAQ Section
+      'faq.title': 'Frequently Asked Questions',
+      'faq.subtitle': 'Everything you need to know about Lumen',
+
+      'faq.q1.question': 'What is Lumen?',
+      'faq.q1.answer': 'Lumen is a church management system designed to simplify administration. It helps churches manage members, track attendance, handle finances, schedule ministries, and automate care—all in one easy-to-use platform.',
+
+      'faq.q2.question': 'How much does Lumen cost?',
+      'faq.q2.answer': 'Lumen is designed to be affordable for churches of all sizes. We offer flexible pricing plans starting from free trials to paid subscriptions. Visit our pricing page to see all available plans.',
+
+      'faq.q3.question': 'Is my church data secure?',
+      'faq.q3.answer': 'Yes, security is our top priority. All data is encrypted and backed up regularly. We comply with industry standards and maintain strict security protocols to protect your congregation's privacy.',
+
+      'faq.q4.question': 'Can Lumen send WhatsApp reminders?',
+      'faq.q4.answer': 'Yes! Lumen can auto-send birthday reminders and event notifications via WhatsApp to keep your congregation engaged and informed.',
+
+      'faq.q5.question': 'Is Lumen easy to set up?',
+      'faq.q5.answer': 'Absolutely. Lumen is designed with churches in mind, so setup is straightforward. We also offer onboarding support to get your team up to speed quickly.',
+
+      'faq.q6.question': 'Do you offer support?',
+      'faq.q6.answer': 'Yes, we provide comprehensive support including documentation, video tutorials, and direct support for our paid plans. We\'re here to help your church succeed.',
     },
   },
   id: {
@@ -381,6 +403,28 @@ const resources = {
 
       'about.testimonial.finance.quote': 'Pelacakan aliran keuangan sangat transparan dan mudah digunakan. Ini telah membangun kepercayaan yang sangat besar dalam jemaat kami.',
       'about.testimonial.finance.name': 'Kepala Keuangan, Persekutuan Emanuel',
+
+      // FAQ Section
+      'faq.title': 'Pertanyaan yang Sering Diajukan',
+      'faq.subtitle': 'Semua yang perlu Anda ketahui tentang Lumen',
+
+      'faq.q1.question': 'Apa itu Lumen?',
+      'faq.q1.answer': 'Lumen adalah sistem manajemen gereja yang dirancang untuk menyederhanakan administrasi. Ini membantu gereja mengelola anggota, melacak kehadiran, menangani keuangan, menjadwalkan pelayanan, dan mengotomatisasi perawatan—semuanya dalam satu platform yang mudah digunakan.',
+
+      'faq.q2.question': 'Berapa biaya Lumen?',
+      'faq.q2.answer': 'Lumen dirancang untuk terjangkau bagi gereja dari semua ukuran. Kami menawarkan paket harga yang fleksibel mulai dari uji coba gratis hingga langganan berbayar. Kunjungi halaman penetapan harga kami untuk melihat semua paket yang tersedia.',
+
+      'faq.q3.question': 'Apakah data gereja saya aman?',
+      'faq.q3.answer': 'Ya, keamanan adalah prioritas utama kami. Semua data dienkripsi dan dicadangkan secara teratur. Kami mematuhi standar industri dan mempertahankan protokol keamanan ketat untuk melindungi privasi jemaat Anda.',
+
+      'faq.q4.question': 'Bisakah Lumen mengirim pengingat WhatsApp?',
+      'faq.q4.answer': 'Ya! Lumen dapat mengirim pengingat ulang tahun dan pemberitahuan acara melalui WhatsApp secara otomatis untuk menjaga jemaat Anda tetap terlibat dan terinformasi.',
+
+      'faq.q5.question': 'Apakah Lumen mudah diatur?',
+      'faq.q5.answer': 'Tentu saja. Lumen dirancang dengan gereja dalam pikiran, jadi pengaturan sangat mudah. Kami juga menawarkan dukungan onboarding untuk membuat tim Anda cepat memahaminya.',
+
+      'faq.q6.question': 'Apakah Anda menawarkan dukungan?',
+      'faq.q6.answer': 'Ya, kami menyediakan dukungan komprehensif termasuk dokumentasi, tutorial video, dan dukungan langsung untuk paket berbayar kami. Kami ada di sini untuk membantu gereja Anda sukses.',
     },
   },
 };

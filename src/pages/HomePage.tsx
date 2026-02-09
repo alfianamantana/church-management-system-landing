@@ -8,6 +8,8 @@ import { Area, AreaChart, Bar, BarChart, CartesianGrid, XAxis, YAxis } from 'rec
 import { ChartContainer, ChartTooltip, ChartTooltipContent } from '@/components/ui/chart'
 import { useTranslation } from 'react-i18next'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
+import { Footer } from '@/components/Footer'
+import { FAQ } from '@/components/FAQ'
 import { Link } from 'react-router-dom'
 
 const attendanceData = [
@@ -495,6 +497,12 @@ export function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <FAQ />
+
+      {/* Footer */}
+      <Footer />
     </div>
   )
 }

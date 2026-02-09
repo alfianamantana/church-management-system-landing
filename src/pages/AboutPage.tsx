@@ -6,6 +6,7 @@ import { motion } from 'framer-motion'
 import { Shield, Users, Lightbulb, Heart, Globe } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
+import { Footer } from '@/components/Footer'
 import { Link } from 'react-router-dom'
 
 export function AboutPage() {
@@ -336,6 +337,9 @@ export function AboutPage() {
           </motion.div>
         </div>
       </section>
+
+      {/* Footer */}
+      <Footer />
     </div>
   )
 }
