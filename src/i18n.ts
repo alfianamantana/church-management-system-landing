@@ -179,6 +179,19 @@ const resources = {
       'about.cta.description': 'Hundreds of churches are already simplifying their administration and focusing more on their mission. Your church could be next.',
       'about.cta.primaryButton': 'Start Your Free Trial',
       'about.cta.secondaryButton': 'Schedule a Demo',
+
+      // Testimonials Section
+      'about.testimonials.title': 'What Our Community Says',
+      'about.testimonials.subtitle': 'Real voices from real churches transforming their ministry',
+
+      'about.testimonial.pastor.quote': 'Lumen has given us eyes to see who is missing and heart to reach out. The attendance analytics are a game-changer for our growth.',
+      'about.testimonial.pastor.name': 'Lead Pastor, Mount Carmel Church',
+
+      'about.testimonial.admin.quote': 'Scheduling worship teams used to be a nightmare. Now, it happens in minutes, and the WhatsApp reminders keep everyone on track.',
+      'about.testimonial.admin.name': 'Church Administrator, Grace Ministry Center',
+
+      'about.testimonial.finance.quote': 'The financial flow tracking is so transparent and easy to use. It has built immense trust within our congregation.',
+      'about.testimonial.finance.name': 'Finance Head, Emmanuel Fellowship',
     },
   },
   id: {
@@ -355,6 +368,19 @@ const resources = {
       'about.cta.description': 'Ratusan gereja sudah menyederhanakan administrasi mereka dan fokus lebih pada misi mereka. Gereja Anda bisa menjadi berikutnya.',
       'about.cta.primaryButton': 'Mulai Uji Coba Gratis Anda',
       'about.cta.secondaryButton': 'Jadwalkan Demo',
+
+      // Testimonials Section
+      'about.testimonials.title': 'Apa Kata Pengguna Lumen',
+      'about.testimonials.subtitle': 'Suara nyata dari gereja nyata yang mengubah pelayanan mereka',
+
+      'about.testimonial.pastor.quote': 'Lumen telah memberi kami mata untuk melihat siapa yang tidak hadir dan hati untuk menjangkau. Analitik kehadiran adalah pengubah permainan untuk pertumbuhan kami.',
+      'about.testimonial.pastor.name': 'Gembala Sidang, Gereja Gunung Karmel',
+
+      'about.testimonial.admin.quote': 'Menjadwalkan tim ibadah dulu sangat mengganggu. Sekarang, ini terjadi dalam hitungan menit, dan pengingat WhatsApp membuat semua orang tetap terdepan.',
+      'about.testimonial.admin.name': 'Administrator Gereja, Pusat Pelayanan Kasih',
+
+      'about.testimonial.finance.quote': 'Pelacakan aliran keuangan sangat transparan dan mudah digunakan. Ini telah membangun kepercayaan yang sangat besar dalam jemaat kami.',
+      'about.testimonial.finance.name': 'Kepala Keuangan, Persekutuan Emanuel',
     },
   },
 };

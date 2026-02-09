@@ -203,6 +203,112 @@ export function AboutPage() {
         </div>
       </section>
 
+      {/* Testimonials / Social Proof */}
+      <section className="border-b border-border/40 px-4 py-20 md:py-28">
+        <div className="container mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="mb-16 text-center"
+          >
+            <h2 className="mb-4 text-balance text-3xl font-bold tracking-tight text-foreground md:text-5xl">
+              {t('about.testimonials.title')}
+            </h2>
+            <p className="text-pretty text-lg text-muted-foreground">
+              {t('about.testimonials.subtitle')}
+            </p>
+          </motion.div>
+
+          <div className="grid gap-8 md:grid-cols-1 lg:grid-cols-3">
+            {/* Testimonial 1 - Lead Pastor */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0 }}
+            >
+              <Card className="flex h-full flex-col border-border/50 bg-secondary/30 transition-shadow hover:shadow-lg">
+                <CardHeader>
+                  <div className="flex items-start gap-4">
+                    <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-accent/10">
+                      <Users className="h-6 w-6 text-accent" />
+                    </div>
+                    <div className="flex-1">
+                      <p className="text-sm font-medium text-foreground">
+                        {t('about.testimonial.pastor.name')}
+                      </p>
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent className="flex-1">
+                  <p className="text-pretty leading-relaxed text-muted-foreground">
+                    "{t('about.testimonial.pastor.quote')}"
+                  </p>
+                </CardContent>
+              </Card>
+            </motion.div>
+
+            {/* Testimonial 2 - Church Admin */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.1 }}
+            >
+              <Card className="flex h-full flex-col border-border/50 bg-secondary/30 transition-shadow hover:shadow-lg">
+                <CardHeader>
+                  <div className="flex items-start gap-4">
+                    <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-accent/10">
+                      <Users className="h-6 w-6 text-accent" />
+                    </div>
+                    <div className="flex-1">
+                      <p className="text-sm font-medium text-foreground">
+                        {t('about.testimonial.admin.name')}
+                      </p>
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent className="flex-1">
+                  <p className="text-pretty leading-relaxed text-muted-foreground">
+                    "{t('about.testimonial.admin.quote')}"
+                  </p>
+                </CardContent>
+              </Card>
+            </motion.div>
+
+            {/* Testimonial 3 - Finance Head */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+            >
+              <Card className="flex h-full flex-col border-border/50 bg-secondary/30 transition-shadow hover:shadow-lg">
+                <CardHeader>
+                  <div className="flex items-start gap-4">
+                    <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-accent/10">
+                      <Users className="h-6 w-6 text-accent" />
+                    </div>
+                    <div className="flex-1">
+                      <p className="text-sm font-medium text-foreground">
+                        {t('about.testimonial.finance.name')}
+                      </p>
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent className="flex-1">
+                  <p className="text-pretty leading-relaxed text-muted-foreground">
+                    "{t('about.testimonial.finance.quote')}"
+                  </p>
+                </CardContent>
+              </Card>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
       {/* Call to Action */}
       <section className="px-4 py-20 md:py-28">
         <div className="container mx-auto">
