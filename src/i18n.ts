@@ -8,6 +8,8 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 const resources = {
   en: {
     translation: {
+      'footer.brand.description':
+        'Lumen is a church management system designed to simplify administration and empower ministries to focus on what matters most: people.',
       // Navigation
       'nav.features': 'Features',
       'nav.analytics': 'Analytics',
@@ -196,6 +198,8 @@ const resources = {
   },
   id: {
     translation: {
+      'footer.brand.description':
+        'Lumen adalah sistem manajemen gereja yang dirancang untuk menyederhanakan administrasi dan memberdayakan pelayanan agar fokus pada hal yang paling penting: manusia.',
       // Navigation
       'nav.features': 'Fitur',
       'nav.analytics': 'Analitik',
