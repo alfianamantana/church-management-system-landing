@@ -8,8 +8,6 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 const resources = {
   en: {
     translation: {
-      'footer.brand.description':
-        'Lumen is a church management system designed to simplify administration and empower ministries to focus on what matters most: people.',
       // Navigation
       'nav.features': 'Features',
       'nav.analytics': 'Analytics',
@@ -147,52 +145,70 @@ const resources = {
 
       // About Page
       'about.hero.title': 'The Light Behind Lumen',
-      'about.hero.subtitle': 'A story born from the heart of ministry and the desire to set churches free from administrative burdens.',
+      'about.hero.subtitle':
+        'A story born from the heart of ministry and the desire to set churches free from administrative burdens.',
 
       'about.why.title': 'Why Lumen Was Born',
-      'about.why.story': 'Lumen was created by a Christian developer who serves as a ministry worker in a local church in Bekasi, West Java. This wasn\'t built in a corporate office, but born out of the real-life challenges faced by a small-to-medium congregation. The creator saw firsthand the struggle of managing congregation data manually and realized that many churches lack the technical staff or massive budgets to implement high-end software. They witnessed time and energy that should have been devoted to shepherding and discipleship getting consumed by spreadsheets and manual data entry. From that reality, Lumen was born—not as a commercial product first, but as a ministry tool created to lighten the load.',
+      'about.why.story':
+        "Lumen was created by a Christian developer who serves as a ministry worker in a local church in Bekasi, West Java. This wasn't built in a corporate office, but born out of the real-life challenges faced by a small-to-medium congregation. The creator saw firsthand the struggle of managing congregation data manually and realized that many churches lack the technical staff or massive budgets to implement high-end software. They witnessed time and energy that should have been devoted to shepherding and discipleship getting consumed by spreadsheets and manual data entry. From that reality, Lumen was born—not as a commercial product first, but as a ministry tool created to lighten the load.",
       'about.why.lokasi': 'Bekasi, West Java—where this journey began.',
 
       'about.mission.title': 'Our Core Mission & Values',
-      'about.mission.description': 'Three pillars guide everything we do at Lumen',
+      'about.mission.description':
+        'Three pillars guide everything we do at Lumen',
 
       'about.values.accessibility.title': 'Radical Accessibility',
-      'about.values.accessibility.description': 'Digitizing church data in the simplest way possible, so even non-technical leaders can navigate their congregation\'s information with confidence.',
+      'about.values.accessibility.description':
+        "Digitizing church data in the simplest way possible, so even non-technical leaders can navigate their congregation's information with confidence.",
 
       'about.values.affordability.title': 'Affordability',
-      'about.values.affordability.description': 'We believe technology should empower the Great Commission, not drain the church\'s treasury. Designed to be as affordable as possible so even the smallest churches can benefit.',
+      'about.values.affordability.description':
+        "We believe technology should empower the Great Commission, not drain the church's treasury. Designed to be as affordable as possible so even the smallest churches can benefit.",
 
       'about.values.efficiency.title': 'Efficiency',
-      'about.values.efficiency.description': 'Web-based systems are superior to spreadsheets—real-time updates, accessibility from any device, and centralized coordination for all ministries.',
+      'about.values.efficiency.description':
+        'Web-based systems are superior to spreadsheets—real-time updates, accessibility from any device, and centralized coordination for all ministries.',
 
       'about.values.security.title': 'Data Security',
-      'about.values.security.description': 'While affordable, security is a top priority. All congregation data is encrypted and backed up to ensure privacy and peace of mind.',
+      'about.values.security.description':
+        'While affordable, security is a top priority. All congregation data is encrypted and backed up to ensure privacy and peace of mind.',
 
       'about.how.title': 'How We Solve It',
-      'about.how.solution': 'Lumen is designed with what we call "church logic"—built by someone who understands the rhythms of congregational life. Because the developer is an active servant in the church, Lumen doesn\'t think like generic CRM software. It thinks like a pastor, a finance administrator, and a ministry coordinator all at once.',
-      'about.how.efficiency': 'Instead of juggling spreadsheets across email and WhatsApp, you get one centralized system where attendance is tracked, giving is recorded, events are scheduled, and member profiles are maintained. Real-time updates mean no more outdated data. Accessibility from any device means the church administrator can manage information from anywhere. Centralized coordination means every ministry department stays informed without endless back-and-forth communication.',
+      'about.how.solution':
+        'Lumen is designed with what we call "church logic"—built by someone who understands the rhythms of congregational life. Because the developer is an active servant in the church, Lumen doesn\'t think like generic CRM software. It thinks like a pastor, a finance administrator, and a ministry coordinator all at once.',
+      'about.how.efficiency':
+        'Instead of juggling spreadsheets across email and WhatsApp, you get one centralized system where attendance is tracked, giving is recorded, events are scheduled, and member profiles are maintained. Real-time updates mean no more outdated data. Accessibility from any device means the church administrator can manage information from anywhere. Centralized coordination means every ministry department stays informed without endless back-and-forth communication.',
 
       'about.commitment.title': 'Our Commitment to You',
-      'about.commitment.security': 'Security Without Compromise: While Lumen is affordable, data protection is never compromised. All congregation information is encrypted and backed up regularly, ensuring the privacy and trust your church deserves.',
-      'about.commitment.community': 'By the Church, For the Church: We don\'t just build software—we build in partnership with you. Lumen includes a dedicated feature request system where users can suggest and vote on new features. Your feedback directly shapes Lumen\'s evolution, ensuring the software grows alongside your church\'s unique needs.',
-      'about.commitment.closing': 'This is community-driven growth at its finest.',
+      'about.commitment.security':
+        'Security Without Compromise: While Lumen is affordable, data protection is never compromised. All congregation information is encrypted and backed up regularly, ensuring the privacy and trust your church deserves.',
+      'about.commitment.community':
+        "By the Church, For the Church: We don't just build software—we build in partnership with you. Lumen includes a dedicated feature request system where users can suggest and vote on new features. Your feedback directly shapes Lumen's evolution, ensuring the software grows alongside your church's unique needs.",
+      'about.commitment.closing':
+        'This is community-driven growth at its finest.',
 
       'about.cta.title': 'Join the Lumen Community',
-      'about.cta.description': 'Hundreds of churches are already simplifying their administration and focusing more on their mission. Your church could be next.',
+      'about.cta.description':
+        'Hundreds of churches are already simplifying their administration and focusing more on their mission. Your church could be next.',
       'about.cta.primaryButton': 'Start Your Free Trial',
       'about.cta.secondaryButton': 'Schedule a Demo',
 
       // Testimonials Section
       'about.testimonials.title': 'What Our Community Says',
-      'about.testimonials.subtitle': 'Real voices from real churches transforming their ministry',
+      'about.testimonials.subtitle':
+        'Real voices from real churches transforming their ministry',
 
-      'about.testimonial.pastor.quote': 'Lumen has given us eyes to see who is missing and heart to reach out. The attendance analytics are a game-changer for our growth.',
+      'about.testimonial.pastor.quote':
+        'Lumen has given us eyes to see who is missing and heart to reach out. The attendance analytics are a game-changer for our growth.',
       'about.testimonial.pastor.name': 'Lead Pastor, Mount Carmel Church',
 
-      'about.testimonial.admin.quote': 'Scheduling worship teams used to be a nightmare. Now, it happens in minutes, and the WhatsApp reminders keep everyone on track.',
-      'about.testimonial.admin.name': 'Church Administrator, Grace Ministry Center',
+      'about.testimonial.admin.quote':
+        'Scheduling worship teams used to be a nightmare. Now, it happens in minutes, and the WhatsApp reminders keep everyone on track.',
+      'about.testimonial.admin.name':
+        'Church Administrator, Grace Ministry Center',
 
-      'about.testimonial.finance.quote': 'The financial flow tracking is so transparent and easy to use. It has built immense trust within our congregation.',
+      'about.testimonial.finance.quote':
+        'The financial flow tracking is so transparent and easy to use. It has built immense trust within our congregation.',
       'about.testimonial.finance.name': 'Finance Head, Emmanuel Fellowship',
 
       // FAQ Section
@@ -200,28 +216,81 @@ const resources = {
       'faq.subtitle': 'Everything you need to know about Lumen',
 
       'faq.q1.question': 'What is Lumen?',
-      'faq.q1.answer': 'Lumen is a church management system designed to simplify administration. It helps churches manage members, track attendance, handle finances, schedule ministries, and automate care—all in one easy-to-use platform.',
+      'faq.q1.answer':
+        'Lumen is a church management system designed to simplify administration. It helps churches manage members, track attendance, handle finances, schedule ministries, and automate care—all in one easy-to-use platform.',
 
       'faq.q2.question': 'How much does Lumen cost?',
-      'faq.q2.answer': 'Lumen is designed to be affordable for churches of all sizes. We offer flexible pricing plans starting from free trials to paid subscriptions. Visit our pricing page to see all available plans.',
+      'faq.q2.answer':
+        'Lumen is designed to be affordable for churches of all sizes. We offer flexible pricing plans starting from free trials to paid subscriptions. Visit our pricing page to see all available plans.',
 
       'faq.q3.question': 'Is my church data secure?',
-      'faq.q3.answer': 'Yes, security is our top priority. All data is encrypted and backed up regularly. We comply with industry standards and maintain strict security protocols to protect your congregation's privacy.',
+      'faq.q3.answer':
+        "Yes, security is our top priority. All data is encrypted and backed up regularly. We comply with industry standards and maintain strict security protocols to protect your congregation's privacy.",
 
       'faq.q4.question': 'Can Lumen send WhatsApp reminders?',
-      'faq.q4.answer': 'Yes! Lumen can auto-send birthday reminders and event notifications via WhatsApp to keep your congregation engaged and informed.',
+      'faq.q4.answer':
+        'Yes! Lumen can auto-send birthday reminders and event notifications via WhatsApp to keep your congregation engaged and informed.',
 
       'faq.q5.question': 'Is Lumen easy to set up?',
-      'faq.q5.answer': 'Absolutely. Lumen is designed with churches in mind, so setup is straightforward. We also offer onboarding support to get your team up to speed quickly.',
+      'faq.q5.answer':
+        'Absolutely. Lumen is designed with churches in mind, so setup is straightforward. We also offer onboarding support to get your team up to speed quickly.',
 
       'faq.q6.question': 'Do you offer support?',
-      'faq.q6.answer': 'Yes, we provide comprehensive support including documentation, video tutorials, and direct support for our paid plans. We\'re here to help your church succeed.',
+      'faq.q6.answer':
+        "Yes, we provide comprehensive support including documentation, video tutorials, and direct support for our paid plans. We're here to help your church succeed.",
+
+      // Help Center
+      'help.title': 'Help Center',
+      'help.subtitle': 'Find answers and support for using Lumen',
+      'help.gettingStarted.title': 'Getting Started',
+      'help.gettingStarted.desc':
+        'Learn the basics of setting up your church on Lumen',
+      'help.features.title': 'Features',
+      'help.features.desc': 'Explore all the powerful features Lumen offers',
+      'help.troubleshooting.title': 'Troubleshooting',
+      'help.troubleshooting.desc': 'Solutions to common issues and problems',
+      'help.bestPractices.title': 'Best Practices',
+      'help.bestPractices.desc': 'Tips and strategies for maximizing Lumen',
+      'help.contact.button': 'Need More Help?',
+
+      // Contact Page
+      'contact.title': 'Contact Us',
+      'contact.subtitle': 'Get in touch with the Lumen team',
+      'contact.email.label': 'Email Address',
+      'contact.email.placeholder': 'your@email.com',
+      'contact.name.label': 'Full Name',
+      'contact.name.placeholder': 'Your Name',
+      'contact.subject.label': 'Subject',
+      'contact.subject.placeholder': 'What can we help you with?',
+      'contact.message.label': 'Message',
+      'contact.message.placeholder': 'Tell us more about your inquiry...',
+      'contact.submit': 'Send Message',
+      'contact.info.email': 'Email',
+      'contact.info.phone': 'Phone',
+      'contact.info.address': 'Address',
+
+      // Terms Page
+      'terms.title': 'Terms of Service',
+      'terms.lastUpdated': 'Last Updated',
+      'terms.section1.title': '1. Acceptance of Terms',
+      'terms.section1.content':
+        'By accessing and using Lumen, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.',
+      'terms.section2.title': '2. Use License',
+      'terms.section2.content':
+        'Permission is granted to temporarily download one copy of the materials (information or software) on Lumen for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:',
+      'terms.section3.title': '3. Disclaimer',
+      'terms.section3.content':
+        "The materials on Lumen's web site are provided on an 'as is' basis. Lumen makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.",
+      'terms.section4.title': '4. Limitations',
+      'terms.section4.content':
+        "In no event shall Lumen or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on Lumen's Internet site, even if Lumen or a Lumen authorized representative has been notified orally or in writing of the possibility of such damage.",
+      'terms.section5.title': '5. Accuracy of Materials',
+      'terms.section5.content':
+        "The materials appearing on Lumen's web site could include technical, typographical, or photographic errors. Lumen does not warrant that any of the materials on Lumen's web site are accurate, complete, or current. Lumen may make changes to the materials contained on its web site at any time without notice.",
     },
   },
   id: {
     translation: {
-      'footer.brand.description':
-        'Lumen adalah sistem manajemen gereja yang dirancang untuk menyederhanakan administrasi dan memberdayakan pelayanan agar fokus pada hal yang paling penting: manusia.',
       // Navigation
       'nav.features': 'Fitur',
       'nav.analytics': 'Analitik',
@@ -360,52 +429,70 @@ const resources = {
 
       // About Page
       'about.hero.title': 'Cahaya Di Balik Lumen',
-      'about.hero.subtitle': 'Sebuah kisah yang lahir dari hati pelayanan dan keinginan untuk membebaskan gereja dari beban administrasi.',
+      'about.hero.subtitle':
+        'Sebuah kisah yang lahir dari hati pelayanan dan keinginan untuk membebaskan gereja dari beban administrasi.',
 
       'about.why.title': 'Mengapa Lumen Diciptakan',
-      'about.why.story': 'Lumen diciptakan oleh seorang developer Kristen yang melayani sebagai pekerja gereja di sebuah gereja lokal di Bekasi, Jawa Barat. Bukan dibangun di kantor perusahaan, melainkan lahir dari tantangan nyata yang dihadapi oleh jemaat kecil-menengah. Pembuatnya melihat langsung perjuangan dalam mengelola data jemaat secara manual dan menyadari bahwa banyak gereja tidak memiliki staf teknis atau anggaran besar untuk mengimplementasikan perangkat lunak kelas atas. Mereka menyaksikan bagaimana waktu dan energi yang seharusnya dihabiskan untuk penggembalaan dan pemuridan malah tersedot oleh spreadsheet dan entri data manual. Dari realitas itulah Lumen lahir—bukan sebagai produk komersial terlebih dahulu, melainkan sebagai alat pelayanan yang dirancang untuk meringankan beban.',
+      'about.why.story':
+        'Lumen diciptakan oleh seorang developer Kristen yang melayani sebagai pekerja gereja di sebuah gereja lokal di Bekasi, Jawa Barat. Bukan dibangun di kantor perusahaan, melainkan lahir dari tantangan nyata yang dihadapi oleh jemaat kecil-menengah. Pembuatnya melihat langsung perjuangan dalam mengelola data jemaat secara manual dan menyadari bahwa banyak gereja tidak memiliki staf teknis atau anggaran besar untuk mengimplementasikan perangkat lunak kelas atas. Mereka menyaksikan bagaimana waktu dan energi yang seharusnya dihabiskan untuk penggembalaan dan pemuridan malah tersedot oleh spreadsheet dan entri data manual. Dari realitas itulah Lumen lahir—bukan sebagai produk komersial terlebih dahulu, melainkan sebagai alat pelayanan yang dirancang untuk meringankan beban.',
       'about.why.lokasi': 'Bekasi, Jawa Barat—tempat perjalanan ini dimulai.',
 
       'about.mission.title': 'Misi dan Nilai Inti Kami',
-      'about.mission.description': 'Tiga pilar memandu segala yang kami lakukan di Lumen',
+      'about.mission.description':
+        'Tiga pilar memandu segala yang kami lakukan di Lumen',
 
       'about.values.accessibility.title': 'Aksesibilitas Radikal',
-      'about.values.accessibility.description': 'Mendigitalkan data gereja dengan cara yang paling sederhana, sehingga bahkan pemimpin yang tidak berpengalaman teknis dapat menavigasi informasi jemaat dengan percaya diri.',
+      'about.values.accessibility.description':
+        'Mendigitalkan data gereja dengan cara yang paling sederhana, sehingga bahkan pemimpin yang tidak berpengalaman teknis dapat menavigasi informasi jemaat dengan percaya diri.',
 
       'about.values.affordability.title': 'Keterjangkauan',
-      'about.values.affordability.description': 'Kami percaya teknologi harus memberdayakan Amanat Agung, bukan menguras kas gereja. Dirancang untuk semurah mungkin sehingga bahkan gereja terkecil pun bisa merasakan manfaatnya.',
+      'about.values.affordability.description':
+        'Kami percaya teknologi harus memberdayakan Amanat Agung, bukan menguras kas gereja. Dirancang untuk semurah mungkin sehingga bahkan gereja terkecil pun bisa merasakan manfaatnya.',
 
       'about.values.efficiency.title': 'Efisiensi',
-      'about.values.efficiency.description': 'Sistem berbasis web lebih unggul dari spreadsheet—pembaruan real-time, aksesibilitas dari perangkat apa pun, dan koordinasi terpusat untuk semua pelayanan.',
+      'about.values.efficiency.description':
+        'Sistem berbasis web lebih unggul dari spreadsheet—pembaruan real-time, aksesibilitas dari perangkat apa pun, dan koordinasi terpusat untuk semua pelayanan.',
 
       'about.values.security.title': 'Keamanan Data',
-      'about.values.security.description': 'Meskipun terjangkau, keamanan adalah prioritas utama. Semua data jemaat dienkripsi dan dicadangkan secara berkala untuk memastikan privasi dan ketenangan pikiran.',
+      'about.values.security.description':
+        'Meskipun terjangkau, keamanan adalah prioritas utama. Semua data jemaat dienkripsi dan dicadangkan secara berkala untuk memastikan privasi dan ketenangan pikiran.',
 
       'about.how.title': 'Bagaimana Kami Menyelesaikannya',
-      'about.how.solution': 'Lumen dirancang dengan apa yang kami sebut "logika gereja"—dibangun oleh seseorang yang memahami irama kehidupan jemaat. Karena pembuatnya adalah pelayan aktif di gereja, Lumen tidak berpikir seperti perangkat lunak CRM generik. Ia berpikir seperti seorang pendeta, administrator keuangan, dan koordinator pelayanan sekaligus.',
-      'about.how.efficiency': 'Daripada mengelola spreadsheet di email dan WhatsApp, Anda mendapatkan satu sistem terpusat tempat kehadiran dilacak, pemberian dicatat, acara dijadwalkan, dan profil anggota dipertahankan. Pembaruan real-time berarti tidak ada lagi data yang ketinggalan jaman. Aksesibilitas dari perangkat apa pun berarti administrator gereja dapat mengelola informasi dari mana saja. Koordinasi terpusat berarti setiap departemen pelayanan tetap terinformasi tanpa komunikasi bolak-balik yang tidak ada habisnya.',
+      'about.how.solution':
+        'Lumen dirancang dengan apa yang kami sebut "logika gereja"—dibangun oleh seseorang yang memahami irama kehidupan jemaat. Karena pembuatnya adalah pelayan aktif di gereja, Lumen tidak berpikir seperti perangkat lunak CRM generik. Ia berpikir seperti seorang pendeta, administrator keuangan, dan koordinator pelayanan sekaligus.',
+      'about.how.efficiency':
+        'Daripada mengelola spreadsheet di email dan WhatsApp, Anda mendapatkan satu sistem terpusat tempat kehadiran dilacak, pemberian dicatat, acara dijadwalkan, dan profil anggota dipertahankan. Pembaruan real-time berarti tidak ada lagi data yang ketinggalan jaman. Aksesibilitas dari perangkat apa pun berarti administrator gereja dapat mengelola informasi dari mana saja. Koordinasi terpusat berarti setiap departemen pelayanan tetap terinformasi tanpa komunikasi bolak-balik yang tidak ada habisnya.',
 
       'about.commitment.title': 'Komitmen Kami kepada Anda',
-      'about.commitment.security': 'Keamanan Tanpa Kompromi: Meskipun Lumen terjangkau, perlindungan data tidak pernah dikompromikan. Semua informasi jemaat dienkripsi dan dicadangkan secara teratur, memastikan privasi dan kepercayaan yang layak diterima gereja Anda.',
-      'about.commitment.community': 'Oleh Gereja, Untuk Gereja: Kami tidak hanya membangun perangkat lunak—kami membangun dalam kemitraan dengan Anda. Lumen mencakup sistem permintaan fitur khusus di mana pengguna dapat menyarankan dan memberikan suara pada fitur baru. Umpan balik Anda secara langsung membentuk evolusi Lumen, memastikan perangkat lunak berkembang seiring dengan kebutuhan unik gereja Anda.',
-      'about.commitment.closing': 'Ini adalah pertumbuhan yang didorong komunitas dalam bentuk terbaiknya.',
+      'about.commitment.security':
+        'Keamanan Tanpa Kompromi: Meskipun Lumen terjangkau, perlindungan data tidak pernah dikompromikan. Semua informasi jemaat dienkripsi dan dicadangkan secara teratur, memastikan privasi dan kepercayaan yang layak diterima gereja Anda.',
+      'about.commitment.community':
+        'Oleh Gereja, Untuk Gereja: Kami tidak hanya membangun perangkat lunak—kami membangun dalam kemitraan dengan Anda. Lumen mencakup sistem permintaan fitur khusus di mana pengguna dapat menyarankan dan memberikan suara pada fitur baru. Umpan balik Anda secara langsung membentuk evolusi Lumen, memastikan perangkat lunak berkembang seiring dengan kebutuhan unik gereja Anda.',
+      'about.commitment.closing':
+        'Ini adalah pertumbuhan yang didorong komunitas dalam bentuk terbaiknya.',
 
       'about.cta.title': 'Bergabunglah dengan Komunitas Lumen',
-      'about.cta.description': 'Ratusan gereja sudah menyederhanakan administrasi mereka dan fokus lebih pada misi mereka. Gereja Anda bisa menjadi berikutnya.',
+      'about.cta.description':
+        'Ratusan gereja sudah menyederhanakan administrasi mereka dan fokus lebih pada misi mereka. Gereja Anda bisa menjadi berikutnya.',
       'about.cta.primaryButton': 'Mulai Uji Coba Gratis Anda',
       'about.cta.secondaryButton': 'Jadwalkan Demo',
 
       // Testimonials Section
       'about.testimonials.title': 'Apa Kata Pengguna Lumen',
-      'about.testimonials.subtitle': 'Suara nyata dari gereja nyata yang mengubah pelayanan mereka',
+      'about.testimonials.subtitle':
+        'Suara nyata dari gereja nyata yang mengubah pelayanan mereka',
 
-      'about.testimonial.pastor.quote': 'Lumen telah memberi kami mata untuk melihat siapa yang tidak hadir dan hati untuk menjangkau. Analitik kehadiran adalah pengubah permainan untuk pertumbuhan kami.',
+      'about.testimonial.pastor.quote':
+        'Lumen telah memberi kami mata untuk melihat siapa yang tidak hadir dan hati untuk menjangkau. Analitik kehadiran adalah pengubah permainan untuk pertumbuhan kami.',
       'about.testimonial.pastor.name': 'Gembala Sidang, Gereja Gunung Karmel',
 
-      'about.testimonial.admin.quote': 'Menjadwalkan tim ibadah dulu sangat mengganggu. Sekarang, ini terjadi dalam hitungan menit, dan pengingat WhatsApp membuat semua orang tetap terdepan.',
-      'about.testimonial.admin.name': 'Administrator Gereja, Pusat Pelayanan Kasih',
+      'about.testimonial.admin.quote':
+        'Menjadwalkan tim ibadah dulu sangat mengganggu. Sekarang, ini terjadi dalam hitungan menit, dan pengingat WhatsApp membuat semua orang tetap terdepan.',
+      'about.testimonial.admin.name':
+        'Administrator Gereja, Pusat Pelayanan Kasih',
 
-      'about.testimonial.finance.quote': 'Pelacakan aliran keuangan sangat transparan dan mudah digunakan. Ini telah membangun kepercayaan yang sangat besar dalam jemaat kami.',
+      'about.testimonial.finance.quote':
+        'Pelacakan aliran keuangan sangat transparan dan mudah digunakan. Ini telah membangun kepercayaan yang sangat besar dalam jemaat kami.',
       'about.testimonial.finance.name': 'Kepala Keuangan, Persekutuan Emanuel',
 
       // FAQ Section
@@ -413,22 +500,78 @@ const resources = {
       'faq.subtitle': 'Semua yang perlu Anda ketahui tentang Lumen',
 
       'faq.q1.question': 'Apa itu Lumen?',
-      'faq.q1.answer': 'Lumen adalah sistem manajemen gereja yang dirancang untuk menyederhanakan administrasi. Ini membantu gereja mengelola anggota, melacak kehadiran, menangani keuangan, menjadwalkan pelayanan, dan mengotomatisasi perawatan—semuanya dalam satu platform yang mudah digunakan.',
+      'faq.q1.answer':
+        'Lumen adalah sistem manajemen gereja yang dirancang untuk menyederhanakan administrasi. Ini membantu gereja mengelola anggota, melacak kehadiran, menangani keuangan, menjadwalkan pelayanan, dan mengotomatisasi perawatan—semuanya dalam satu platform yang mudah digunakan.',
 
       'faq.q2.question': 'Berapa biaya Lumen?',
-      'faq.q2.answer': 'Lumen dirancang untuk terjangkau bagi gereja dari semua ukuran. Kami menawarkan paket harga yang fleksibel mulai dari uji coba gratis hingga langganan berbayar. Kunjungi halaman penetapan harga kami untuk melihat semua paket yang tersedia.',
+      'faq.q2.answer':
+        'Lumen dirancang untuk terjangkau bagi gereja dari semua ukuran. Kami menawarkan paket harga yang fleksibel mulai dari uji coba gratis hingga langganan berbayar. Kunjungi halaman penetapan harga kami untuk melihat semua paket yang tersedia.',
 
       'faq.q3.question': 'Apakah data gereja saya aman?',
-      'faq.q3.answer': 'Ya, keamanan adalah prioritas utama kami. Semua data dienkripsi dan dicadangkan secara teratur. Kami mematuhi standar industri dan mempertahankan protokol keamanan ketat untuk melindungi privasi jemaat Anda.',
+      'faq.q3.answer':
+        'Ya, keamanan adalah prioritas utama kami. Semua data dienkripsi dan dicadangkan secara teratur. Kami mematuhi standar industri dan mempertahankan protokol keamanan ketat untuk melindungi privasi jemaat Anda.',
 
       'faq.q4.question': 'Bisakah Lumen mengirim pengingat WhatsApp?',
-      'faq.q4.answer': 'Ya! Lumen dapat mengirim pengingat ulang tahun dan pemberitahuan acara melalui WhatsApp secara otomatis untuk menjaga jemaat Anda tetap terlibat dan terinformasi.',
+      'faq.q4.answer':
+        'Ya! Lumen dapat mengirim pengingat ulang tahun dan pemberitahuan acara melalui WhatsApp secara otomatis untuk menjaga jemaat Anda tetap terlibat dan terinformasi.',
 
       'faq.q5.question': 'Apakah Lumen mudah diatur?',
-      'faq.q5.answer': 'Tentu saja. Lumen dirancang dengan gereja dalam pikiran, jadi pengaturan sangat mudah. Kami juga menawarkan dukungan onboarding untuk membuat tim Anda cepat memahaminya.',
+      'faq.q5.answer':
+        'Tentu saja. Lumen dirancang dengan gereja dalam pikiran, jadi pengaturan sangat mudah. Kami juga menawarkan dukungan onboarding untuk membuat tim Anda cepat memahaminya.',
 
       'faq.q6.question': 'Apakah Anda menawarkan dukungan?',
-      'faq.q6.answer': 'Ya, kami menyediakan dukungan komprehensif termasuk dokumentasi, tutorial video, dan dukungan langsung untuk paket berbayar kami. Kami ada di sini untuk membantu gereja Anda sukses.',
+      'faq.q6.answer':
+        'Ya, kami menyediakan dukungan komprehensif termasuk dokumentasi, tutorial video, dan dukungan langsung untuk paket berbayar kami. Kami ada di sini untuk membantu gereja Anda sukses.',
+
+      // Help Center
+      'help.title': 'Pusat Bantuan',
+      'help.subtitle': 'Temukan jawaban dan dukungan untuk menggunakan Lumen',
+      'help.gettingStarted.title': 'Memulai',
+      'help.gettingStarted.desc':
+        'Pelajari dasar-dasar menyiapkan gereja Anda di Lumen',
+      'help.features.title': 'Fitur',
+      'help.features.desc': 'Jelajahi semua fitur canggih yang Lumen tawarkan',
+      'help.troubleshooting.title': 'Pemecahan Masalah',
+      'help.troubleshooting.desc': 'Solusi untuk masalah dan pertanyaan umum',
+      'help.bestPractices.title': 'Praktik Terbaik',
+      'help.bestPractices.desc': 'Tips dan strategi untuk memaksimalkan Lumen',
+      'help.contact.button': 'Butuh Lebih Banyak Bantuan?',
+
+      // Contact Page
+      'contact.title': 'Hubungi Kami',
+      'contact.subtitle': 'Hubungi tim Lumen',
+      'contact.email.label': 'Alamat Email',
+      'contact.email.placeholder': 'anda@email.com',
+      'contact.name.label': 'Nama Lengkap',
+      'contact.name.placeholder': 'Nama Anda',
+      'contact.subject.label': 'Subjek',
+      'contact.subject.placeholder': 'Apa yang bisa kami bantu?',
+      'contact.message.label': 'Pesan',
+      'contact.message.placeholder':
+        'Ceritakan lebih lanjut tentang pertanyaan Anda...',
+      'contact.submit': 'Kirim Pesan',
+      'contact.info.email': 'Email',
+      'contact.info.phone': 'Telepon',
+      'contact.info.address': 'Alamat',
+
+      // Terms Page
+      'terms.title': 'Syarat Layanan',
+      'terms.lastUpdated': 'Terakhir Diperbarui',
+      'terms.section1.title': '1. Penerimaan Syarat',
+      'terms.section1.content':
+        'Dengan mengakses dan menggunakan Lumen, Anda menerima dan setuju untuk terikat oleh ketentuan dan ketentuan perjanjian ini. Jika Anda tidak setuju untuk mematuhi hal di atas, silakan jangan gunakan layanan ini.',
+      'terms.section2.title': '2. Lisensi Penggunaan',
+      'terms.section2.content':
+        'Izin diberikan untuk sementara mengunduh satu salinan materi (informasi atau perangkat lunak) di Lumen hanya untuk melihat pribadi, non-komersial. Ini adalah pemberian lisensi, bukan transfer judul, dan di bawah lisensi ini Anda tidak boleh:',
+      'terms.section3.title': '3. Penafian',
+      'terms.section3.content':
+        "Materi di situs web Lumen disediakan dengan dasar 'sebagaimana adanya'. Lumen tidak memberikan jaminan, tersurat atau tersirat, dan dengan ini menafikan dan meniadakan semua jaminan dan kondisi lainnya termasuk, tanpa batasan, jaminan tersirat atau kondisi kelayakan, kesesuaian untuk tujuan tertentu, atau non-pelanggaran hak kekayaan intelektual atau pelanggaran hak lainnya.",
+      'terms.section4.title': '4. Pembatasan',
+      'terms.section4.content':
+        'Dalam hal apa pun Lumen atau pemasoknya tidak bertanggung jawab atas kerusakan apa pun (termasuk, tanpa batasan, kerusakan untuk kehilangan data atau laba, atau karena gangguan bisnis) yang timbul dari penggunaan atau ketidakmampuan menggunakan materi di situs Internet Lumen, bahkan jika Lumen atau perwakilan resmi Lumen telah diberitahu secara lisan atau tertulis tentang kemungkinan kerusakan tersebut.',
+      'terms.section5.title': '5. Akurasi Materi',
+      'terms.section5.content':
+        'Materi yang muncul di situs web Lumen dapat mencakup kesalahan teknis, tipografi, atau fotografi. Lumen tidak menjamin bahwa ada materi di situs web Lumen yang akurat, lengkap, atau terkini. Lumen dapat membuat perubahan pada materi yang terdapat di situs webnya kapan saja tanpa pemberitahuan.',
     },
   },
 };

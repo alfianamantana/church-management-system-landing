@@ -39,7 +39,7 @@ export function FAQ() {
   ]
 
   return (
-    <section className="border-b border-border/40 px-4 py-20 md:py-28">
+    <section className="border-b border-border/40 bg-secondary/30 px-4 py-20 md:py-28">
       <div className="container mx-auto">
         {/* Header */}
         <motion.div

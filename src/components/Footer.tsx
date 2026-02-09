@@ -78,19 +78,19 @@ export function Footer() {
             </h3>
             <ul className="space-y-2">
               <li>
-                <a href="#help" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                <Link to="/help" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                   {t('footer.support.help')}
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                <Link to="/contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                   {t('footer.support.contact')}
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#terms" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                <Link to="/terms" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                   {t('footer.support.terms')}
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -107,9 +107,9 @@ export function Footer() {
               <a href="#privacy" className="hover:text-foreground transition-colors">
                 Privacy Policy
               </a>
-              <a href="#terms" className="hover:text-foreground transition-colors">
+              <Link to="/terms" className="hover:text-foreground transition-colors">
                 Terms of Service
-              </a>
+              </Link>
             </div>
           </div>
         </div>
