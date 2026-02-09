@@ -1,58 +1,75 @@
-import * as React from "react"
-import * as AccordionPrimitive from "@radix-ui/accordion"
-import { ChevronDown } from "lucide-react"
+'use client'
 
-import { cn } from "@/lib/utils"
+import * as React from 'react'
+import { ChevronDown } from 'lucide-react'
+import { cn } from '@/lib/utils'
 
-const Accordion = AccordionPrimitive.Root
+interface AccordionItemProps {
+  id: string
+  trigger: React.ReactNode
+  content: React.ReactNode
+  className?: string
+}
 
-const AccordionItem = React.forwardRef<
-  React.ElementRef<typeof AccordionPrimitive.Item>,
-  React.ComponentPropsWithoutRef<typeof AccordionPrimitive.Item>
->(({ className, ...props }, ref) => (
-  <AccordionPrimitive.Item
-    ref={ref}
-    className={cn("border-b border-border/40", className)}
-    {...props}
-  />
-))
-AccordionItem.displayName = "AccordionItem"
+interface AccordionProps {
+  items: AccordionItemProps[]
+  className?: string
+  defaultOpen?: string
+  allowMultiple?: boolean
+}
 
-const AccordionTrigger = React.forwardRef<
-  React.ElementRef<typeof AccordionPrimitive.Trigger>,
-  React.ComponentPropsWithoutRef<typeof AccordionPrimitive.Trigger>
->(({ className, children, ...props }, ref) => (
-  <AccordionPrimitive.Header className="flex">
-    <AccordionPrimitive.Trigger
-      ref={ref}
-      className={cn(
-        "flex flex-1 items-center justify-between py-4 text-left font-medium transition-all hover:underline [&[data-state=open]>svg]:rotate-180",
-        className
-      )}
-      {...props}
-    >
-      {children}
-      <ChevronDown className="h-5 w-5 text-accent shrink-0 transition-transform duration-200" />
-    </AccordionPrimitive.Trigger>
-  </AccordionPrimitive.Header>
-))
-AccordionTrigger.displayName = AccordionPrimitive.Trigger.displayName
+export function Accordion({
+  items,
+  className,
+  defaultOpen,
+  allowMultiple = false,
+}: AccordionProps) {
+  const [openItems, setOpenItems] = React.useState<Set<string>>(
+    defaultOpen ? new Set([defaultOpen]) : new Set()
+  )
 
-const AccordionContent = React.forwardRef<
-  React.ElementRef<typeof AccordionPrimitive.Content>,
-  React.ComponentPropsWithoutRef<typeof AccordionPrimitive.Content>
->(({ className, children, ...props }, ref) => (
-  <AccordionPrimitive.Content
-    ref={ref}
-    className={cn(
-      "overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down",
-      className
-    )}
-    {...props}
-  >
-    <div className="pb-4 pt-0">{children}</div>
-  </AccordionPrimitive.Content>
-))
-AccordionContent.displayName = AccordionPrimitive.Content.displayName
+  const toggleItem = (id: string) => {
+    const newOpenItems = new Set(openItems)
+    if (newOpenItems.has(id)) {
+      newOpenItems.delete(id)
+    } else {
+      if (!allowMultiple) {
+        newOpenItems.clear()
+      }
+      newOpenItems.add(id)
+    }
+    setOpenItems(newOpenItems)
+  }
 
-export { Accordion, AccordionItem, AccordionTrigger, AccordionContent }
+  return (
+    <div className={cn('space-y-2', className)}>
+      {items.map((item) => (
+        <div
+          key={item.id}
+          className={cn(
+            'border border-border/40 rounded-lg overflow-hidden transition-all hover:border-border/60',
+            item.className
+          )}
+        >
+          <button
+            onClick={() => toggleItem(item.id)}
+            className="w-full px-6 py-4 flex items-center justify-between hover:bg-secondary/30 transition-colors text-left"
+          >
+            <span className="font-medium text-foreground">{item.trigger}</span>
+            <ChevronDown
+              className={cn(
+                'h-5 w-5 text-muted-foreground transition-transform duration-200 flex-shrink-0',
+                openItems.has(item.id) && 'rotate-180'
+              )}
+            />
+          </button>
+          {openItems.has(item.id) && (
+            <div className="border-t border-border/40 px-6 py-4 bg-secondary/10 text-muted-foreground">
+              {item.content}
+            </div>
+          )}
+        </div>
+      ))}
+    </div>
+  )
+}

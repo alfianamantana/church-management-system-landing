@@ -1,34 +1,40 @@
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
-import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from '@/components/ui/accordion'
+import { Accordion } from '@/components/ui/accordion'
 
 export function FAQ() {
   const { t } = useTranslation()
 
   const faqs = [
     {
-      question: t('faq.q1.question'),
-      answer: t('faq.q1.answer'),
+      id: 'faq-1',
+      trigger: t('faq.q1.question'),
+      content: t('faq.q1.answer'),
     },
     {
-      question: t('faq.q2.question'),
-      answer: t('faq.q2.answer'),
+      id: 'faq-2',
+      trigger: t('faq.q2.question'),
+      content: t('faq.q2.answer'),
     },
     {
-      question: t('faq.q3.question'),
-      answer: t('faq.q3.answer'),
+      id: 'faq-3',
+      trigger: t('faq.q3.question'),
+      content: t('faq.q3.answer'),
     },
     {
-      question: t('faq.q4.question'),
-      answer: t('faq.q4.answer'),
+      id: 'faq-4',
+      trigger: t('faq.q4.question'),
+      content: t('faq.q4.answer'),
     },
     {
-      question: t('faq.q5.question'),
-      answer: t('faq.q5.answer'),
+      id: 'faq-5',
+      trigger: t('faq.q5.question'),
+      content: t('faq.q5.answer'),
     },
     {
-      question: t('faq.q6.question'),
-      answer: t('faq.q6.answer'),
+      id: 'faq-6',
+      trigger: t('faq.q6.question'),
+      content: t('faq.q6.answer'),
     },
   ]
 
@@ -59,18 +65,7 @@ export function FAQ() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="mx-auto max-w-3xl"
         >
-          <Accordion type="single" collapsible className="w-full">
-            {faqs.map((faq, index) => (
-              <AccordionItem key={index} value={`item-${index}`}>
-                <AccordionTrigger className="text-left text-base font-semibold text-foreground hover:text-accent md:text-lg">
-                  {faq.question}
-                </AccordionTrigger>
-                <AccordionContent className="text-muted-foreground">
-                  {faq.answer}
-                </AccordionContent>
-              </AccordionItem>
-            ))}
-          </Accordion>
+          <Accordion items={faqs} className="w-full" />
         </motion.div>
       </div>
     </section>
