@@ -101,15 +101,15 @@ const resources = {
         'Priority developer support',
         'Shared server',
         'Asset recording',
-        'Musician scheduling',
-        'Congregation attendance',
+        'Volunteer scheduling',
+        'Congregation attendance tracking',
       ],
       'pricing.growth.button': 'Start Free Trial',
 
       'pricing.harvest.name': 'Harvest',
       'pricing.harvest.description': 'For established ministries',
       'pricing.harvest.price': 'Contact sales',
-      'pricing.harvest.period': '/month',
+      'pricing.harvest.period': '',
       'pricing.harvest.features': [
         'Unlimited members',
         'Custom reporting',
@@ -141,6 +141,7 @@ const resources = {
       'footer.support.help': 'Help Center',
       'footer.support.contact': 'Contact',
       'footer.support.terms': 'Terms',
+      'footer.support.privacy': 'Privacy',
       'footer.copyright': '© 2026 Lumen. All rights reserved.',
 
       // About Page
@@ -287,6 +288,25 @@ const resources = {
       'terms.section5.title': '5. Accuracy of Materials',
       'terms.section5.content':
         "The materials appearing on Lumen's web site could include technical, typographical, or photographic errors. Lumen does not warrant that any of the materials on Lumen's web site are accurate, complete, or current. Lumen may make changes to the materials contained on its web site at any time without notice.",
+
+      // Privacy Policy Page
+      'privacy.title': 'Privacy Policy',
+      'privacy.lastUpdated': 'Last Updated',
+      'privacy.section1.title': '1. Information We Collect',
+      'privacy.section1.content':
+        'We collect information you provide directly to us, such as when you create an account, use our services, or contact us for support. This may include your name, email address, phone number, and church-related information.',
+      'privacy.section2.title': '2. How We Use Your Information',
+      'privacy.section2.content':
+        'We use the information we collect to provide, maintain, and improve our services, process transactions, send you technical notices and support messages, and communicate with you about products, services, and promotions.',
+      'privacy.section3.title': '3. Information Sharing',
+      'privacy.section3.content':
+        'We do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except as described in this policy. We may share your information with trusted service providers who assist us in operating our services.',
+      'privacy.section4.title': '4. Data Security',
+      'privacy.section4.content':
+        'We implement appropriate security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. All data is encrypted and backed up regularly.',
+      'privacy.section5.title': '5. Your Rights',
+      'privacy.section5.content':
+        'You have the right to access, update, or delete your personal information. You may also opt out of receiving promotional communications from us by following the unsubscribe instructions in those communications.',
     },
   },
   id: {
@@ -385,15 +405,15 @@ const resources = {
         'Dukungan prioritas developer',
         'Server bersama',
         'Pencatatan aset',
-        'Penjadwalan pemusik',
-        'Absensi jemaat',
+        'Penjadwalan volenteer',
+        'Pendataan kehadiran jemaat',
       ],
       'pricing.growth.button': 'Mulai Uji Coba Gratis',
 
       'pricing.harvest.name': 'Panen',
       'pricing.harvest.description': 'Untuk gereja yang mapan',
       'pricing.harvest.price': 'Hubungi Kami',
-      'pricing.harvest.period': '/bulan',
+      'pricing.harvest.period': '',
       'pricing.harvest.features': [
         'Anggota tak terbatas',
         'Pelaporan khusus',
@@ -425,6 +445,7 @@ const resources = {
       'footer.support.help': 'Pusat Bantuan',
       'footer.support.contact': 'Kontak',
       'footer.support.terms': 'Syarat',
+      'footer.support.privacy': 'Privasi',
       'footer.copyright': '© 2026 Lumen. All rights reserved.',
 
       // About Page
@@ -572,6 +593,25 @@ const resources = {
       'terms.section5.title': '5. Akurasi Materi',
       'terms.section5.content':
         'Materi yang muncul di situs web Lumen dapat mencakup kesalahan teknis, tipografi, atau fotografi. Lumen tidak menjamin bahwa ada materi di situs web Lumen yang akurat, lengkap, atau terkini. Lumen dapat membuat perubahan pada materi yang terdapat di situs webnya kapan saja tanpa pemberitahuan.',
+
+      // Privacy Policy Page
+      'privacy.title': 'Kebijakan Privasi',
+      'privacy.lastUpdated': 'Terakhir Diperbarui',
+      'privacy.section1.title': '1. Informasi yang Kami Kumpulkan',
+      'privacy.section1.content':
+        'Kami mengumpulkan informasi yang Anda berikan langsung kepada kami, seperti saat Anda membuat akun, menggunakan layanan kami, atau menghubungi kami untuk dukungan. Ini dapat mencakup nama Anda, alamat email, nomor telepon, dan informasi terkait gereja.',
+      'privacy.section2.title': '2. Cara Kami Menggunakan Informasi Anda',
+      'privacy.section2.content':
+        'Kami menggunakan informasi yang kami kumpulkan untuk menyediakan, memelihara, dan meningkatkan layanan kami, memproses transaksi, mengirimkan pemberitahuan teknis dan pesan dukungan, dan berkomunikasi dengan Anda tentang produk, layanan, dan promosi.',
+      'privacy.section3.title': '3. Berbagi Informasi',
+      'privacy.section3.content':
+        'Kami tidak menjual, memperdagangkan, atau mentransfer informasi pribadi Anda ke pihak ketiga tanpa persetujuan Anda, kecuali seperti yang dijelaskan dalam kebijakan ini. Kami dapat membagikan informasi Anda dengan penyedia layanan terpercaya yang membantu kami mengoperasikan layanan kami.',
+      'privacy.section4.title': '4. Keamanan Data',
+      'privacy.section4.content':
+        'Kami menerapkan langkah-langkah keamanan yang sesuai untuk melindungi informasi pribadi Anda dari akses, perubahan, pengungkapan, atau penghancuran yang tidak sah. Semua data dienkripsi dan dicadangkan secara teratur.',
+      'privacy.section5.title': '5. Hak Anda',
+      'privacy.section5.content':
+        'Anda memiliki hak untuk mengakses, memperbarui, atau menghapus informasi pribadi Anda. Anda juga dapat memilih keluar dari menerima komunikasi promosi dari kami dengan mengikuti instruksi berhenti berlangganan dalam komunikasi tersebut.',
     },
   },
 };

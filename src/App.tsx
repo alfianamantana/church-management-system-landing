@@ -6,6 +6,7 @@ import { AboutPage } from './pages/AboutPage'
 import { HelpPage } from './pages/HelpPage'
 import { ContactPage } from './pages/ContactPage'
 import { TermsPage } from './pages/TermsPage'
+import { PrivacyPolicy } from './pages/PrivacyPolicy'
 import './App.css'
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="/help" element={<HelpPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/terms" element={<TermsPage />} />
+        <Route path="/privacy" element={<PrivacyPolicy />} />
       </Routes>
     </Router>
   )

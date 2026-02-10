@@ -8,7 +8,7 @@ export function Footer() {
   const { t } = useTranslation()
 
   return (
-    <footer className="border-t border-border/40 bg-secondary/30 px-4 py-12 md:py-16">
+    <footer className="border-t border-border/40 px-4 py-12 md:py-16">
       <div className="container mx-auto">
         {/* Main Footer Content */}
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 mb-12">
@@ -92,6 +92,11 @@ export function Footer() {
                   {t('footer.support.terms')}
                 </Link>
               </li>
+              <li>
+                <Link to="/privacy" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                  {t('footer.support.privacy')}
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
@@ -104,11 +109,11 @@ export function Footer() {
               {t('footer.copyright')}
             </p>
             <div className="flex gap-6 text-sm text-muted-foreground">
-              <a href="#privacy" className="hover:text-foreground transition-colors">
-                Privacy Policy
-              </a>
+              <Link to="/privacy" className="hover:text-foreground transition-colors">
+                {t('footer.support.privacy')}
+              </Link>
               <Link to="/terms" className="hover:text-foreground transition-colors">
-                Terms of Service
+                {t('footer.support.terms')}
               </Link>
             </div>
           </div>
