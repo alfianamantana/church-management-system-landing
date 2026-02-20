@@ -42,7 +42,7 @@ export function HelpPage() {
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
           <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
             <Lightbulb className="h-6 w-6 text-accent" />
-            <span className="text-xl font-bold text-foreground">Lumen</span>
+            <span className="text-xl font-bold text-foreground">Paturehon</span>
           </Link>
           <div className="flex items-center gap-3">
             <LanguageSwitcher />

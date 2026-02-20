@@ -40,7 +40,7 @@ export function HomePage() {
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
           <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
             <Lightbulb className="h-6 w-6 text-accent" />
-            <span className="text-xl font-bold text-foreground">Lumen</span>
+            <span className="text-xl font-bold text-foreground">Paturehon</span>
           </Link>
           <div className="hidden items-center gap-8 md:flex">
             <a href="#features" className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">
@@ -373,7 +373,7 @@ export function HomePage() {
               <p className="font-medium text-foreground">{t('whyUs.conclusion')}</p>
             </div>
             <div className='text-xs font-bold mt-2'>
-              Team Lumen
+              Team Paturehon
             </div>
           </motion.div>
         </div>

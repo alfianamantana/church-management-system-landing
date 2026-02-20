@@ -1,7 +1,8 @@
 {
-  "name": "my-project",
+  "name": "paturehon",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Paturehon - Church Management System Landing Page. Paturehon means to organize, repair, arrange, or maintain something to make it better.",
   "type": "module",
   "scripts": {
     "dev": "vite",
