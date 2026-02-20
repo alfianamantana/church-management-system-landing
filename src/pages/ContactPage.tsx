@@ -34,7 +34,7 @@ export function ContactPage() {
     {
       icon: Mail,
       label: t('contact.info.email'),
-      value: 'support@lumen.church',
+      value: 'support@paturehon.church',
     },
     {
       icon: Phone,
@@ -55,7 +55,7 @@ export function ContactPage() {
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
           <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
             <Lightbulb className="h-6 w-6 text-accent" />
-            <span className="text-xl font-bold text-foreground">Lumen</span>
+            <span className="text-xl font-bold text-foreground">Paturehon</span>
           </Link>
           <div className="flex items-center gap-3">
             <LanguageSwitcher />
@@ -177,7 +177,7 @@ export function ContactPage() {
                   Get in Touch
                 </h2>
                 <p className="text-muted-foreground mb-8">
-                  Have questions about Lumen? We're here to help. Reach out to us using any of the contact methods below.
+                  Have questions about Paturehon? We're here to help. Reach out to us using any of the contact methods below.
                 </p>
               </div>
 

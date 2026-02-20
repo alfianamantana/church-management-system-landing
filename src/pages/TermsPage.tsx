@@ -41,7 +41,7 @@ export function TermsPage() {
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
           <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
             <Lightbulb className="h-6 w-6 text-accent" />
-            <span className="text-xl font-bold text-foreground">Lumen</span>
+            <span className="text-xl font-bold text-foreground">Paturehon</span>
           </Link>
           <div className="flex items-center gap-3">
             <LanguageSwitcher />
@@ -102,7 +102,7 @@ export function TermsPage() {
                 6. Contact Information
               </h2>
               <p className="text-pretty leading-relaxed text-muted-foreground">
-                If you have any questions about these Terms of Service, please contact us at support@lumen.church or visit our Contact page for more information.
+                If you have any questions about these Terms of Service, please contact us at support@paturehon.church or visit our Contact page for more information.
               </p>
             </motion.div>
           </div>

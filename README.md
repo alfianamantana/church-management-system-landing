@@ -1,6 +1,6 @@
-# Church Management System Landing Page
+# Paturehon - Church Management System Landing Page
 
-A modern, responsive landing page for a church management system built with React, TypeScript, and Vite. Features internationalization support for English and Indonesian languages.
+Paturehon (from Batak language: "merapihkan" - to organize, repair, arrange, or maintain something to make it better, tidy, or functional again) is a modern, responsive landing page for a comprehensive church management system built with React, TypeScript, and Vite. Features internationalization support for English and Indonesian languages.
 
 ## Features
 

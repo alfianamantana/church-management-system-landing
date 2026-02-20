@@ -16,7 +16,7 @@ export function Footer() {
           <div className="space-y-4">
             <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity w-fit">
               <Lightbulb className="h-6 w-6 text-accent" />
-              <span className="text-lg font-bold text-foreground">Lumen</span>
+              <span className="text-lg font-bold text-foreground">Paturehon</span>
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Church management made simple, accessible, and affordable for every congregation.
