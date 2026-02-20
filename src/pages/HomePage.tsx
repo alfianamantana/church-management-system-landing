@@ -33,6 +33,14 @@ const givingData = [
 export function HomePage() {
   const { t } = useTranslation()
 
+  // Ensure translation entries that may be single strings are coerced to arrays
+  const seedFeaturesRaw = t('pricing.seed.features', { returnObjects: true }) as any;
+  const seedFeatures = Array.isArray(seedFeaturesRaw) ? seedFeaturesRaw : (seedFeaturesRaw ? [seedFeaturesRaw] : []);
+  const growthFeaturesRaw = t('pricing.growth.features', { returnObjects: true }) as any;
+  const growthFeatures = Array.isArray(growthFeaturesRaw) ? growthFeaturesRaw : (growthFeaturesRaw ? [growthFeaturesRaw] : []);
+  const harvestFeaturesRaw = t('pricing.harvest.features', { returnObjects: true }) as any;
+  const harvestFeatures = Array.isArray(harvestFeaturesRaw) ? harvestFeaturesRaw : (harvestFeaturesRaw ? [harvestFeaturesRaw] : []);
+
   return (
     <div className="min-h-screen bg-background">
       {/* Sticky Navigation */}
@@ -415,7 +423,7 @@ export function HomePage() {
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-3">
-                    {(t('pricing.seed.features', { returnObjects: true }) as string[]).map((feature: string, index: number) => (
+                    {seedFeatures.map((feature: string, index: number) => (
                       <li key={index} className="flex items-center gap-2">
                         <Check className="h-5 w-5 text-accent" />
                         <span className="text-sm text-foreground">{feature}</span>
@@ -450,7 +458,7 @@ export function HomePage() {
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-3">
-                    {(t('pricing.growth.features', { returnObjects: true }) as string[]).map((feature: string, index: number) => (
+                    {growthFeatures.map((feature: string, index: number) => (
                       <li key={index} className="flex items-center gap-2">
                         <Check className="h-5 w-5 text-accent" />
                         <span className="text-sm text-foreground">{feature}</span>
@@ -481,7 +489,7 @@ export function HomePage() {
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-3">
-                    {(t('pricing.harvest.features', { returnObjects: true }) as string[]).map((feature: string, index: number) => (
+                    {harvestFeatures.map((feature: string, index: number) => (
                       <li key={index} className="flex items-center gap-2">
                         <Check className="h-5 w-5 text-accent" />
                         <span className="text-sm text-foreground">{feature}</span>
